@@ -1,0 +1,6 @@
+This project is a simple Internship Application Management System built using PHP and MySQL. It allows users to apply for internships by submitting their name, email, and uploading their resume in PDF or DOC format. 
+All applications are stored in a MySQL database. On the other side, a secure admin login system is provided.
+The admin logs in through a separate login page, and upon authentication, they are redirected to a dashboard. In the admin dashboard, 
+all applications are listed in a table format where the admin can view applicant details, download resumes, and update the status of each application to "Pending", "Selected", or "Rejected". File uploads are securely handled, 
+and all user and admin interactions are validated. 
+The system ensures proper session handling to restrict dashboard access to logged-in admins only.
